@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<link href="./main.css" rel="stylesheet" type="text/css"/>
+<body>
+  <div id="div1" class="select" >
+    <div class="text"> 可选字段 </div>
+    <select multiple="multiple" id="selected1" class="fontClass" >
+    </select>
+  </div>
+  <div id="div2" class = "button">
+    <br />
+    <input type="button" value=">" onclick="selectOne()"><br>
+    <input type="button" value=">>" onclick="selectAll()"><br>
+    <input type="button" value="<" onclick="deleteOne()"><br>
+    <input type="button" value="<<" onclick="deletAll()"></div>
+  <div id="div3" class="select">
+    <div class="text">
+      <span> 已选字段 </span>
+      <input type="button" value="^" onclick="upOrdown(-1)">
+      <input type="button" value="v" onclick="upOrdown(1)"></i>
+    </div>
+    <select multiple="multiple" id="selected2" class="fontClass"></select>
+  </div>
+</body>
+
+<script type="text/javascript" src="index.js">
+</script>
+
+</html>

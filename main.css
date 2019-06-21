@@ -1,0 +1,35 @@
+.select {
+  width: 200px;
+  height:180px; /* 要想让div显示出来必须为其指定高度和宽度 */
+  float: left;
+  text-align: center;
+}
+.button {
+  width: 80px;
+  height:80px; /* 要想让div显示出来必须为其指定高度和宽度 */
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+}
+.text {
+  width: 200px;
+  height: 24px;
+}
+input{
+  width: 100px;
+  height:120px;
+  margin: 3px;
+  
+}
+input[type="button"] {
+  width: 30px;
+  height:18px;
+}
+select {
+  width: 200px;
+  height:150px;
+  text-align: center;
+}
+.fontClass{
+  font-size: 30px;
+}
